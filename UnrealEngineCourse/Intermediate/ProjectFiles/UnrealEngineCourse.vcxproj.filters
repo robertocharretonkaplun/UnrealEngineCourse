@@ -11,6 +11,7 @@
     <None Include="..\..\Source\UnrealEngineCourseEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.vsconfig" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -32,6 +33,12 @@
     <Filter Include="Source\UnrealEngineCourse">
       <UniqueIdentifier>{74929B56-242F-38BA-BEE3-6BE38FC91FAB}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\UnrealEngineCourse\MyFirstActor.cpp">
+      <Filter>Source\UnrealEngineCourse</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UnrealEngineCourse\MyFirstActor.h">
+      <Filter>Source\UnrealEngineCourse</Filter>
+    </ClInclude>
     <None Include="..\..\Source\UnrealEngineCourse\UnrealEngineCourse.Build.cs">
       <Filter>Source\UnrealEngineCourse</Filter>
     </None>
