@@ -30,4 +30,15 @@ public:
 	// Ejemplo de una función pública
 	UFUNCTION(BlueprintCallable, Category = "Example")
 	void ExampleFunction();
+
+	void DemonstrateFundamentals();
+public:
+	// Variables y tipos de datos
+	int32 IntegerVariable;
+private:
+	float FloatVariable;
+	bool bBooleanVariable;
+
+	// Función para demostrar operadores y estructuras de control
+	//UFUNCTION(BlueprintCallable, Category = "Example")
 };
