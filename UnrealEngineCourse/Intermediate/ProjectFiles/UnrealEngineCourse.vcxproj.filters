@@ -33,6 +33,18 @@
     <Filter Include="Source\UnrealEngineCourse">
       <UniqueIdentifier>{74929B56-242F-38BA-BEE3-6BE38FC91FAB}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\UnrealEngineCourse\AMyActor.cpp">
+      <Filter>Source\UnrealEngineCourse</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UnrealEngineCourse\AMyActor.h">
+      <Filter>Source\UnrealEngineCourse</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\UnrealEngineCourse\GrabbableActor.cpp">
+      <Filter>Source\UnrealEngineCourse</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UnrealEngineCourse\GrabbableActor.h">
+      <Filter>Source\UnrealEngineCourse</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\UnrealEngineCourse\MyFirstActor.cpp">
       <Filter>Source\UnrealEngineCourse</Filter>
     </ClCompile>
