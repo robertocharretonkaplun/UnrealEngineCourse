@@ -1,4 +1,5 @@
 /I "."
+/I "C:\Users\rchar\OneDrive\Documentos\GitHub\UnrealEngineCourse\UnrealEngineCourse\Source\UnrealEngineCourse\Private"
 /I "..\Intermediate\Build\Win64\UnrealEditor\Inc\Engine\UHT"
 /I "..\Shaders\Shared"
 /I "Runtime\Engine\Classes"
@@ -258,6 +259,7 @@
 /I "Developer\WidgetRegistration\Public"
 /I "C:\Users\rchar\OneDrive\Documentos\GitHub\UnrealEngineCourse\UnrealEngineCourse\Intermediate\Build\Win64\UnrealEditor\Inc\UnrealEngineCourse\UHT"
 /I "C:\Users\rchar\OneDrive\Documentos\GitHub\UnrealEngineCourse\UnrealEngineCourse\Source"
+/I "C:\Users\rchar\OneDrive\Documentos\GitHub\UnrealEngineCourse\UnrealEngineCourse\Source\UnrealEngineCourse\Public"
 /I "..\Plugins\EnhancedInput\Intermediate\Build\Win64\UnrealEditor\Inc\EnhancedInput\UHT"
 /I "..\Plugins\EnhancedInput\Source\EnhancedInput\Public"
 /external:W0

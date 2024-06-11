@@ -84,5 +84,23 @@
     <ClInclude Include="..\..\Source\UnrealEngineCourse\UnrealEngineCourseGameMode.h">
       <Filter>Source\UnrealEngineCourse</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\UnrealEngineCourse\Vehicle.cpp">
+      <Filter>Source\UnrealEngineCourse</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UnrealEngineCourse\Vehicle.h">
+      <Filter>Source\UnrealEngineCourse</Filter>
+    </ClInclude>
+    <Filter Include="Source\UnrealEngineCourse\Private">
+      <UniqueIdentifier>{DD11BFEE-06DF-3F8F-8ED2-CA3BD489B283}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\UnrealEngineCourse\Private\Car.cpp">
+      <Filter>Source\UnrealEngineCourse\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\UnrealEngineCourse\Public">
+      <UniqueIdentifier>{DE1B3582-25AE-39C5-80C7-8C93882A3132}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\UnrealEngineCourse\Public\Car.h">
+      <Filter>Source\UnrealEngineCourse\Public</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

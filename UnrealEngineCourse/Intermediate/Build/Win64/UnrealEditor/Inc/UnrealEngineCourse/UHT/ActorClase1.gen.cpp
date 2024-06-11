@@ -43,8 +43,14 @@ void EmptyLinkFunctionForGeneratedCodeActorClase1() {}
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AActorClase1_Statics::DependentSingletons) < 16);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AActorClase1_Statics::Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "// HOLA, ESTA ES MI PRIMERA CLASE EN C++ DE UNREAL ENGINE!\n" },
+#endif
 		{ "IncludePath", "ActorClase1.h" },
 		{ "ModuleRelativePath", "ActorClase1.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "HOLA, ESTA ES MI PRIMERA CLASE EN C++ DE UNREAL ENGINE!" },
+#endif
 	};
 #endif
 #if WITH_METADATA
@@ -101,9 +107,9 @@ void EmptyLinkFunctionForGeneratedCodeActorClase1() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_rchar_OneDrive_Documentos_GitHub_UnrealEngineCourse_UnrealEngineCourse_Source_UnrealEngineCourse_ActorClase1_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AActorClase1, AActorClase1::StaticClass, TEXT("AActorClase1"), &Z_Registration_Info_UClass_AActorClase1, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AActorClase1), 1676971941U) },
+		{ Z_Construct_UClass_AActorClase1, AActorClase1::StaticClass, TEXT("AActorClase1"), &Z_Registration_Info_UClass_AActorClase1, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AActorClase1), 577313173U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_rchar_OneDrive_Documentos_GitHub_UnrealEngineCourse_UnrealEngineCourse_Source_UnrealEngineCourse_ActorClase1_h_1682225776(TEXT("/Script/UnrealEngineCourse"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_rchar_OneDrive_Documentos_GitHub_UnrealEngineCourse_UnrealEngineCourse_Source_UnrealEngineCourse_ActorClase1_h_3127634533(TEXT("/Script/UnrealEngineCourse"),
 		Z_CompiledInDeferFile_FID_Users_rchar_OneDrive_Documentos_GitHub_UnrealEngineCourse_UnrealEngineCourse_Source_UnrealEngineCourse_ActorClase1_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_rchar_OneDrive_Documentos_GitHub_UnrealEngineCourse_UnrealEngineCourse_Source_UnrealEngineCourse_ActorClase1_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
