@@ -13,39 +13,70 @@ AGrabbableActor::AGrabbableActor()
 
   bIsGrabbed = false;
   HoldingActor = nullptr;
+  MovementSpeed = 100.0f; // Default speed
+  MovementAmplitude = 500.0f; // Default amplitude
+  bMovingRight = true;
+
+  // Collisions
+  CollisionComponent = CreateDefaultSubobject<UBoxComponent>(TEXT("CollisionComponent"));
+  CollisionComponent->SetupAttachment(RootComponent);
+  CollisionComponent->SetBoxExtent(FVector(1.0f, 1.0f, 1.0f));
+  CollisionComponent->SetCollisionProfileName("BlockAllDynamic");
+  CollisionComponent->OnComponentBeginOverlap.AddDynamic(this, &AGrabbableActor::OnOverlapBegin);
 }
 
 // Called when the game starts or when spawned
 void AGrabbableActor::BeginPlay()
 {
 	Super::BeginPlay();
-  InitialLocation = GetActorLocation();
-  InitialRotation = GetActorRotation();
+  ChangeMaterial(DefaultMaterial);
 }
 
 // Called every frame
 void AGrabbableActor::Tick(float DeltaTime)
 {
   Super::Tick(DeltaTime);
+  FVector CurrentLocation = GetActorLocation();
+  float Movement = MovementSpeed * DeltaTime;
 
-  if (bIsGrabbed && HoldingActor)
+  if (bMovingRight)
   {
-    FVector NewLocation = HoldingActor->GetActorLocation() + HoldingActor->GetActorForwardVector() * 200.0f;
-    SetActorLocation(NewLocation);
+    CurrentLocation.Y += Movement;
+    if (CurrentLocation.Y > InitialLocation.Y + MovementAmplitude)
+    {
+      bMovingRight = false;
+    }
+  }
+  else
+  {
+    CurrentLocation.Y -= Movement;
+    if (CurrentLocation.Y < InitialLocation.Y - MovementAmplitude)
+    {
+      bMovingRight = true;
+    }
+  }
+
+  SetActorLocation(CurrentLocation);
+}
+
+void 
+AGrabbableActor::ChangeMaterial(UMaterialInterface* NewMaterial) 
+{
+  if (NewMaterial && MeshComponent)
+  {
+    MeshComponent->SetMaterial(0, NewMaterial);
   }
 }
 
-
-void AGrabbableActor::Grab()
+void AGrabbableActor::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, 
+                                     AActor* OtherActor, 
+                                     UPrimitiveComponent* OtherComp, 
+                                     int32 OtherBodyIndex, 
+                                     bool bFromSweep, 
+                                     const FHitResult& SweepResult)
 {
-  bIsGrabbed = true;
-}
-
-void AGrabbableActor::Drop()
-{
-  bIsGrabbed = false;
-  HoldingActor = nullptr;
-
-  SetActorLocation(InitialLocation);
-  SetActorRotation(InitialRotation);
+  if (OtherActor && (OtherActor != this) && OtherComp)
+  {
+      Destroy(); // Destroy this actor
+  }
 }

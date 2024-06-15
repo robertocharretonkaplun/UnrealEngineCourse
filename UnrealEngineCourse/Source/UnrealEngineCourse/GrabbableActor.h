@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "Components/BoxComponent.h"
 #include "GrabbableActor.generated.h"
 
 UCLASS()
@@ -24,21 +25,38 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
   UFUNCTION(BlueprintCallable, Category = "Grabbable")
-    void Grab();
+  void ChangeMaterial(UMaterialInterface* NewMaterial);
 
-  UFUNCTION(BlueprintCallable, Category = "Grabbable")
-    void Drop();
-
+  UFUNCTION()
+    void OnOverlapBegin(class UPrimitiveComponent* OverlappedComponent, 
+                        class AActor* OtherActor, 
+                        class UPrimitiveComponent* OtherComp, 
+                        int32 OtherBodyIndex, 
+                        bool bFromSweep, 
+                        const FHitResult& SweepResult);
 private:
-  UPROPERTY(VisibleAnywhere)
+  UPROPERTY(VisibleAnywhere, Category = "Grabbable")
     UStaticMeshComponent* MeshComponent;
 
-  UPROPERTY(EditAnywhere)
+  UPROPERTY(EditAnywhere, Category = "Grabbable")
+    UMaterialInterface* DefaultMaterial;
+
+  UPROPERTY(VisibleAnywhere)
+    class UBoxComponent* CollisionComponent;
+
+  UPROPERTY(EditAnywhere, Category = "Grabbable")
     bool bIsGrabbed;
 
-  UPROPERTY(EditAnywhere)
+  UPROPERTY(EditAnywhere, Category = "Grabbable")
     AActor* HoldingActor;
 
+
+  UPROPERTY(EditAnywhere, Category = "Movement")
+    float MovementSpeed;
+
+  UPROPERTY(EditAnywhere, Category = "Movement")
+    float MovementAmplitude;
+
   FVector InitialLocation;
-  FRotator InitialRotation;
+  bool bMovingRight;
 };

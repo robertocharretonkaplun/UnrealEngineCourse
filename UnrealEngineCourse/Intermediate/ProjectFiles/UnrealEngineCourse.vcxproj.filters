@@ -96,10 +96,16 @@
     <ClCompile Include="..\..\Source\UnrealEngineCourse\Private\Car.cpp">
       <Filter>Source\UnrealEngineCourse\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealEngineCourse\Private\GrabDropCharacter.cpp">
+      <Filter>Source\UnrealEngineCourse\Private</Filter>
+    </ClCompile>
     <Filter Include="Source\UnrealEngineCourse\Public">
       <UniqueIdentifier>{DE1B3582-25AE-39C5-80C7-8C93882A3132}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\UnrealEngineCourse\Public\Car.h">
+      <Filter>Source\UnrealEngineCourse\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UnrealEngineCourse\Public\GrabDropCharacter.h">
       <Filter>Source\UnrealEngineCourse\Public</Filter>
     </ClInclude>
   </ItemGroup>
