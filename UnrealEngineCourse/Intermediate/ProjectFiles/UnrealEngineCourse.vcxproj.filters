@@ -105,6 +105,15 @@
     <ClCompile Include="..\..\Source\UnrealEngineCourse\Private\PlatformActor2.cpp">
       <Filter>Source\UnrealEngineCourse\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealEngineCourse\Private\SimpleActor.cpp">
+      <Filter>Source\UnrealEngineCourse\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealEngineCourse\Private\TMA.cpp">
+      <Filter>Source\UnrealEngineCourse\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealEngineCourse\Private\TransformModifierActor.cpp">
+      <Filter>Source\UnrealEngineCourse\Private</Filter>
+    </ClCompile>
     <Filter Include="Source\UnrealEngineCourse\Public">
       <UniqueIdentifier>{DE1B3582-25AE-39C5-80C7-8C93882A3132}</UniqueIdentifier>
     </Filter>
@@ -118,6 +127,15 @@
       <Filter>Source\UnrealEngineCourse\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\UnrealEngineCourse\Public\PlatformActor2.h">
+      <Filter>Source\UnrealEngineCourse\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UnrealEngineCourse\Public\SimpleActor.h">
+      <Filter>Source\UnrealEngineCourse\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UnrealEngineCourse\Public\TMA.h">
+      <Filter>Source\UnrealEngineCourse\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UnrealEngineCourse\Public\TransformModifierActor.h">
       <Filter>Source\UnrealEngineCourse\Public</Filter>
     </ClInclude>
   </ItemGroup>

@@ -1,5 +1,39 @@
 {
 	"RemapUnityFiles": 
 	{
+		"Module.UnrealEngineCourse.cpp.obj": [
+			"ActorClase1.gen.cpp.obj",
+			"AMyActor.gen.cpp.obj",
+			"Car.gen.cpp.obj",
+			"CustomEventExample.gen.cpp.obj",
+			"GrabbableActor.gen.cpp.obj",
+			"GrabDropCharacter.gen.cpp.obj",
+			"MyFirstActor.gen.cpp.obj",
+			"PlatformActor.gen.cpp.obj",
+			"PlatformActor2.gen.cpp.obj",
+			"UnrealEngineCourseCharacter.gen.cpp.obj",
+			"UnrealEngineCourseGameMode.gen.cpp.obj",
+			"Vehicle.gen.cpp.obj",
+			"ActorClase1.cpp.obj",
+			"AMyActor.cpp.obj",
+			"CustomEventExample.cpp.obj",
+			"MyFirstActor.cpp.obj",
+			"Car.cpp.obj",
+			"GrabDropCharacter.cpp.obj",
+			"PlatformActor.cpp.obj",
+			"PlatformActor2.cpp.obj",
+			"UnrealEngineCourse.cpp.obj",
+			"UnrealEngineCourseCharacter.cpp.obj",
+			"UnrealEngineCourseGameMode.cpp.obj",
+			"Vehicle.cpp.obj",
+			"SimpleActor.gen.cpp.obj",
+			"TMA.gen.cpp.obj",
+			"TransformModifierActor.gen.cpp.obj",
+			"UnrealEngineCourse.init.gen.cpp.obj",
+			"GrabbableActor.cpp.obj",
+			"SimpleActor.cpp.obj",
+			"TMA.cpp.obj",
+			"TransformModifierActor.cpp.obj"
+		]
 	}
 }

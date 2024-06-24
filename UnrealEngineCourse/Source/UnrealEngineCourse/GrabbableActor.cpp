@@ -36,27 +36,7 @@ void AGrabbableActor::BeginPlay()
 void AGrabbableActor::Tick(float DeltaTime)
 {
   Super::Tick(DeltaTime);
-  FVector CurrentLocation = GetActorLocation();
-  float Movement = MovementSpeed * DeltaTime;
-
-  if (bMovingRight)
-  {
-    CurrentLocation.Y += Movement;
-    if (CurrentLocation.Y > InitialLocation.Y + MovementAmplitude)
-    {
-      bMovingRight = false;
-    }
-  }
-  else
-  {
-    CurrentLocation.Y -= Movement;
-    if (CurrentLocation.Y < InitialLocation.Y - MovementAmplitude)
-    {
-      bMovingRight = true;
-    }
-  }
-
-  SetActorLocation(CurrentLocation);
+  
 }
 
 void 
@@ -77,6 +57,8 @@ void AGrabbableActor::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent,
 {
   if (OtherActor && (OtherActor != this) && OtherComp)
   {
+    if (OtherActor->Tags[0] == "Detector") {
       Destroy(); // Destroy this actor
+    }
   }
 }
