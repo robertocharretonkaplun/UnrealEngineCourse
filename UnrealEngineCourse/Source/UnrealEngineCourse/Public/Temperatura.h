@@ -30,4 +30,28 @@ public:
 	// Function to calculate temperature
 	UFUNCTION(BlueprintCallable, Category = "Temperature")
 		float GetTemperatureFahrenheit() const;
+
+	// Function to calculate temperature in Kelvin
+	UFUNCTION(BlueprintCallable, Category = "Temperature")
+		float GetTemperatureKelvin() const;
+
+	// Function to convert Fahrenheit to Celsius
+	UFUNCTION(BlueprintCallable, Category = "Temperature")
+		static float ConvertFahrenheitToCelsius(float Fahrenheit);
+
+	// Function to convert Kelvin to Celsius
+	UFUNCTION(BlueprintCallable, Category = "Temperature")
+		static float ConvertKelvinToCelsius(float Kelvin);
+
+	// Function to calculate average of two temperatures
+	UFUNCTION(BlueprintCallable, Category = "Temperature")
+		static float CalculateAverageTemperature(float Temp1, float Temp2);
+
+	// Function to calculate the difference between two temperatures
+	UFUNCTION(BlueprintCallable, Category = "Temperature")
+		static float CalculateTemperatureDifference(float Temp1, float Temp2);
+
+		UFUNCTION(BlueprintCallable, BlueprintImplementableEvent, Category = "Temperature")
+			void CheckTemperature();
+
 };
