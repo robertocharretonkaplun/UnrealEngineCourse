@@ -12,6 +12,7 @@
 			"PlatformActor.gen.cpp.obj",
 			"PlatformActor2.gen.cpp.obj",
 			"SimpleActor.gen.cpp.obj",
+			"TMA.gen.cpp.obj",
 			"TransformModifierActor.gen.cpp.obj",
 			"UnrealEngineCourseCharacter.gen.cpp.obj",
 			"UnrealEngineCourseGameMode.gen.cpp.obj",
@@ -26,14 +27,17 @@
 			"PlatformActor.cpp.obj",
 			"PlatformActor2.cpp.obj",
 			"SimpleActor.cpp.obj",
+			"TMA.cpp.obj",
 			"TransformModifierActor.cpp.obj",
 			"UnrealEngineCourse.cpp.obj",
 			"UnrealEngineCourseCharacter.cpp.obj",
 			"UnrealEngineCourseGameMode.cpp.obj",
 			"Vehicle.cpp.obj",
-			"TMA.gen.cpp.obj",
+			"Temperatura.gen.cpp.obj",
+			"UCQClase.gen.cpp.obj",
 			"UnrealEngineCourse.init.gen.cpp.obj",
-			"TMA.cpp.obj"
+			"Temperatura.cpp.obj",
+			"UCQClase.cpp.obj"
 		]
 	}
 }

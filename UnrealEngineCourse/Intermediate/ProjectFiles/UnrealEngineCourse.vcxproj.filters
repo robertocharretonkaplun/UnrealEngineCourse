@@ -108,10 +108,16 @@
     <ClCompile Include="..\..\Source\UnrealEngineCourse\Private\SimpleActor.cpp">
       <Filter>Source\UnrealEngineCourse\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealEngineCourse\Private\Temperatura.cpp">
+      <Filter>Source\UnrealEngineCourse\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\UnrealEngineCourse\Private\TMA.cpp">
       <Filter>Source\UnrealEngineCourse\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\UnrealEngineCourse\Private\TransformModifierActor.cpp">
+      <Filter>Source\UnrealEngineCourse\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealEngineCourse\Private\UCQClase.cpp">
       <Filter>Source\UnrealEngineCourse\Private</Filter>
     </ClCompile>
     <Filter Include="Source\UnrealEngineCourse\Public">
@@ -132,10 +138,16 @@
     <ClInclude Include="..\..\Source\UnrealEngineCourse\Public\SimpleActor.h">
       <Filter>Source\UnrealEngineCourse\Public</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\UnrealEngineCourse\Public\Temperatura.h">
+      <Filter>Source\UnrealEngineCourse\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\UnrealEngineCourse\Public\TMA.h">
       <Filter>Source\UnrealEngineCourse\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\UnrealEngineCourse\Public\TransformModifierActor.h">
+      <Filter>Source\UnrealEngineCourse\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UnrealEngineCourse\Public\UCQClase.h">
       <Filter>Source\UnrealEngineCourse\Public</Filter>
     </ClInclude>
   </ItemGroup>

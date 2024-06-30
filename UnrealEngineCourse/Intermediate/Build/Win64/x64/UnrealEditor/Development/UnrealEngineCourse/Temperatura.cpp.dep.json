@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\rchar\\onedrive\\documentos\\github\\unrealenginecourse\\unrealenginecourse\\source\\unrealenginecourse\\private\\temperatura.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\rchar\\onedrive\\documentos\\github\\unrealenginecourse\\unrealenginecourse\\intermediate\\build\\win64\\x64\\unrealenginecourseeditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\rchar\\onedrive\\documentos\\github\\unrealenginecourse\\unrealenginecourse\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealenginecourse\\definitions.unrealenginecourse.h",
+            "c:\\users\\rchar\\onedrive\\documentos\\github\\unrealenginecourse\\unrealenginecourse\\source\\unrealenginecourse\\public\\temperatura.h",
+            "c:\\users\\rchar\\onedrive\\documentos\\github\\unrealenginecourse\\unrealenginecourse\\intermediate\\build\\win64\\unrealeditor\\inc\\unrealenginecourse\\uht\\temperatura.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
