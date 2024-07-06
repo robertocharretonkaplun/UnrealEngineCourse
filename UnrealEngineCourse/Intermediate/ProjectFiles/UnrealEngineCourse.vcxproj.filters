@@ -111,6 +111,9 @@
     <ClCompile Include="..\..\Source\UnrealEngineCourse\Private\Temperatura.cpp">
       <Filter>Source\UnrealEngineCourse\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealEngineCourse\Private\Temperatura2.cpp">
+      <Filter>Source\UnrealEngineCourse\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\UnrealEngineCourse\Private\TMA.cpp">
       <Filter>Source\UnrealEngineCourse\Private</Filter>
     </ClCompile>
@@ -139,6 +142,9 @@
       <Filter>Source\UnrealEngineCourse\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\UnrealEngineCourse\Public\Temperatura.h">
+      <Filter>Source\UnrealEngineCourse\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UnrealEngineCourse\Public\Temperatura2.h">
       <Filter>Source\UnrealEngineCourse\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\UnrealEngineCourse\Public\TMA.h">
