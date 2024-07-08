@@ -44,6 +44,10 @@ class AUnrealEngineCourseCharacter : public ACharacter
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
 	UInputAction* LookAction;
 
+	/** Look Input Action */
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
+		UInputAction* InteractAction;
+
 public:
 	AUnrealEngineCourseCharacter();
 	
@@ -55,6 +59,9 @@ protected:
 
 	/** Called for looking input */
 	void Look(const FInputActionValue& Value);
+	
+	/** Called for interacting input */
+	void Interact(const FInputActionValue& Value);
 			
 
 protected:

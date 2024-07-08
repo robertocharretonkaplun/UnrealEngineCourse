@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-UnrealEngineCourse-2281.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\rchar\OneDrive\Documentos\GitHub\UnrealEngineCourse\UnrealEngineCourse\Intermediate\Build\Win64\x64\UnrealEngineCourseEditor\Development\Engine\SharedPCH.Engine.Cpp20.h.obj"
+"C:\Users\rchar\OneDrive\Documentos\GitHub\UnrealEngineCourse\UnrealEngineCourse\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEngineCourse\Module.UnrealEngineCourse.cpp.obj"
+"C:\Users\rchar\OneDrive\Documentos\GitHub\UnrealEngineCourse\UnrealEngineCourse\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEngineCourse\MyPawn.cpp.obj"
+"C:\Users\rchar\OneDrive\Documentos\GitHub\UnrealEngineCourse\UnrealEngineCourse\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEngineCourse\MyPawn.gen.cpp.obj"
+"C:\Users\rchar\OneDrive\Documentos\GitHub\UnrealEngineCourse\UnrealEngineCourse\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEngineCourse\UnrealEngineCourse.init.gen.cpp.obj"
+"C:\Users\rchar\OneDrive\Documentos\GitHub\UnrealEngineCourse\UnrealEngineCourse\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEngineCourse\Default.rc2.res"
+/OUT:"C:\Users\rchar\OneDrive\Documentos\GitHub\UnrealEngineCourse\UnrealEngineCourse\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEngineCourse\UnrealEditor-UnrealEngineCourse-2281.lib"

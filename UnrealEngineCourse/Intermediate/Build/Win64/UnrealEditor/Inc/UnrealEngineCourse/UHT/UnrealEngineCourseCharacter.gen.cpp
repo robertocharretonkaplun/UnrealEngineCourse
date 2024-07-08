@@ -56,6 +56,10 @@ void EmptyLinkFunctionForGeneratedCodeUnrealEngineCourseCharacter() {}
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_LookAction_MetaData[];
 #endif
 		static const UECodeGen_Private::FObjectPropertyParams NewProp_LookAction;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_InteractAction_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_InteractAction;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
@@ -158,6 +162,20 @@ void EmptyLinkFunctionForGeneratedCodeUnrealEngineCourseCharacter() {}
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AUnrealEngineCourseCharacter_Statics::NewProp_LookAction = { "LookAction", nullptr, (EPropertyFlags)0x0040000000000015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AUnrealEngineCourseCharacter, LookAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AUnrealEngineCourseCharacter_Statics::NewProp_LookAction_MetaData), Z_Construct_UClass_AUnrealEngineCourseCharacter_Statics::NewProp_LookAction_MetaData) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AUnrealEngineCourseCharacter_Statics::NewProp_InteractAction_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "Input" },
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "/** Look Input Action */" },
+#endif
+		{ "ModuleRelativePath", "UnrealEngineCourseCharacter.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "Look Input Action" },
+#endif
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AUnrealEngineCourseCharacter_Statics::NewProp_InteractAction = { "InteractAction", nullptr, (EPropertyFlags)0x0040000000000015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AUnrealEngineCourseCharacter, InteractAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AUnrealEngineCourseCharacter_Statics::NewProp_InteractAction_MetaData), Z_Construct_UClass_AUnrealEngineCourseCharacter_Statics::NewProp_InteractAction_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AUnrealEngineCourseCharacter_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AUnrealEngineCourseCharacter_Statics::NewProp_CameraBoom,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AUnrealEngineCourseCharacter_Statics::NewProp_FollowCamera,
@@ -165,6 +183,7 @@ void EmptyLinkFunctionForGeneratedCodeUnrealEngineCourseCharacter() {}
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AUnrealEngineCourseCharacter_Statics::NewProp_JumpAction,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AUnrealEngineCourseCharacter_Statics::NewProp_MoveAction,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AUnrealEngineCourseCharacter_Statics::NewProp_LookAction,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AUnrealEngineCourseCharacter_Statics::NewProp_InteractAction,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AUnrealEngineCourseCharacter_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AUnrealEngineCourseCharacter>::IsAbstract,
@@ -204,9 +223,9 @@ void EmptyLinkFunctionForGeneratedCodeUnrealEngineCourseCharacter() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_rchar_OneDrive_Documentos_GitHub_UnrealEngineCourse_UnrealEngineCourse_Source_UnrealEngineCourse_UnrealEngineCourseCharacter_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AUnrealEngineCourseCharacter, AUnrealEngineCourseCharacter::StaticClass, TEXT("AUnrealEngineCourseCharacter"), &Z_Registration_Info_UClass_AUnrealEngineCourseCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AUnrealEngineCourseCharacter), 1410276033U) },
+		{ Z_Construct_UClass_AUnrealEngineCourseCharacter, AUnrealEngineCourseCharacter::StaticClass, TEXT("AUnrealEngineCourseCharacter"), &Z_Registration_Info_UClass_AUnrealEngineCourseCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AUnrealEngineCourseCharacter), 1957671617U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_rchar_OneDrive_Documentos_GitHub_UnrealEngineCourse_UnrealEngineCourse_Source_UnrealEngineCourse_UnrealEngineCourseCharacter_h_2956494968(TEXT("/Script/UnrealEngineCourse"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_rchar_OneDrive_Documentos_GitHub_UnrealEngineCourse_UnrealEngineCourse_Source_UnrealEngineCourse_UnrealEngineCourseCharacter_h_2460721090(TEXT("/Script/UnrealEngineCourse"),
 		Z_CompiledInDeferFile_FID_Users_rchar_OneDrive_Documentos_GitHub_UnrealEngineCourse_UnrealEngineCourse_Source_UnrealEngineCourse_UnrealEngineCourseCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_rchar_OneDrive_Documentos_GitHub_UnrealEngineCourse_UnrealEngineCourse_Source_UnrealEngineCourse_UnrealEngineCourseCharacter_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

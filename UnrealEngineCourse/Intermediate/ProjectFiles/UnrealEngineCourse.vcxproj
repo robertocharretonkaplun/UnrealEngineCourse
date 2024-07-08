@@ -180,6 +180,11 @@
       <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>
       <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
     </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealEngineCourse\Private\MyPawn.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>
+      <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
     <ClCompile Include="..\..\Source\UnrealEngineCourse\Private\PlatformActor.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>
@@ -222,6 +227,7 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\UnrealEngineCourse\Public\Car.h"/>
     <ClInclude Include="..\..\Source\UnrealEngineCourse\Public\GrabDropCharacter.h"/>
+    <ClInclude Include="..\..\Source\UnrealEngineCourse\Public\MyPawn.h"/>
     <ClInclude Include="..\..\Source\UnrealEngineCourse\Public\PlatformActor.h"/>
     <ClInclude Include="..\..\Source\UnrealEngineCourse\Public\PlatformActor2.h"/>
     <ClInclude Include="..\..\Source\UnrealEngineCourse\Public\SimpleActor.h"/>

@@ -86,6 +86,11 @@ void AUnrealEngineCourseCharacter::SetupPlayerInputComponent(UInputComponent* Pl
 
 		// Looking
 		EnhancedInputComponent->BindAction(LookAction, ETriggerEvent::Triggered, this, &AUnrealEngineCourseCharacter::Look);
+
+		// Interacting
+		EnhancedInputComponent->BindAction(InteractAction, ETriggerEvent::Triggered, this, &AUnrealEngineCourseCharacter::Interact);
+		EnhancedInputComponent->BindAction(InteractAction, ETriggerEvent::Started, this, &AUnrealEngineCourseCharacter::Interact);
+
 	}
 	else
 	{
@@ -121,10 +126,15 @@ void AUnrealEngineCourseCharacter::Look(const FInputActionValue& Value)
 	// input is a Vector2D
 	FVector2D LookAxisVector = Value.Get<FVector2D>();
 
-	if (Controller != nullptr)
+	if (Controller != nullptr)	
 	{
 		// add yaw and pitch input to controller
 		AddControllerYawInput(LookAxisVector.X);
 		AddControllerPitchInput(LookAxisVector.Y);
 	}
+}
+
+void AUnrealEngineCourseCharacter::Interact(const FInputActionValue& Value)
+{
+	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Green, TEXT("Boton de Interaccion presionado"));
 }

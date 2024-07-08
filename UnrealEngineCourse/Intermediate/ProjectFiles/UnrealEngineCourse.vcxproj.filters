@@ -99,6 +99,9 @@
     <ClCompile Include="..\..\Source\UnrealEngineCourse\Private\GrabDropCharacter.cpp">
       <Filter>Source\UnrealEngineCourse\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealEngineCourse\Private\MyPawn.cpp">
+      <Filter>Source\UnrealEngineCourse\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\UnrealEngineCourse\Private\PlatformActor.cpp">
       <Filter>Source\UnrealEngineCourse\Private</Filter>
     </ClCompile>
@@ -130,6 +133,9 @@
       <Filter>Source\UnrealEngineCourse\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\UnrealEngineCourse\Public\GrabDropCharacter.h">
+      <Filter>Source\UnrealEngineCourse\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UnrealEngineCourse\Public\MyPawn.h">
       <Filter>Source\UnrealEngineCourse\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\UnrealEngineCourse\Public\PlatformActor.h">
