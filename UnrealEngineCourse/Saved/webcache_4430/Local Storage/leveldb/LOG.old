@@ -1,5 +1,3 @@
-2024/07/07-12:50:59.275 7900 Reusing MANIFEST C:/Users/rchar/OneDrive/Documentos/GitHub/UnrealEngineCourse/UnrealEngineCourse/Saved/webcache_4430\Local Storage\leveldb/MANIFEST-000001
-2024/07/07-12:50:59.276 7900 Recovering log #3
-2024/07/07-12:50:59.276 7900 Level-0 table #3: started
-2024/07/07-12:50:59.279 7900 Level-0 table #3: 17514 bytes OK
-2024/07/07-12:50:59.280 7900 Delete type=0 #3
+2024/07/07-17:45:21.709 3f40 Reusing MANIFEST C:/Users/rchar/OneDrive/Documentos/GitHub/UnrealEngineCourse/UnrealEngineCourse/Saved/webcache_4430\Local Storage\leveldb/MANIFEST-000001
+2024/07/07-17:45:21.710 3f40 Recovering log #4
+2024/07/07-17:45:21.710 3f40 Reusing old log C:/Users/rchar/OneDrive/Documentos/GitHub/UnrealEngineCourse/UnrealEngineCourse/Saved/webcache_4430\Local Storage\leveldb/000004.log 
