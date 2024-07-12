@@ -4,11 +4,13 @@
 		"Module.UnrealEngineCourse.cpp.obj": [
 			"ActorClase1.gen.cpp.obj",
 			"AMyActor.gen.cpp.obj",
+			"BTTask_FindRandomLocation.gen.cpp.obj",
 			"Car.gen.cpp.obj",
 			"CustomEventExample.gen.cpp.obj",
 			"GrabbableActor.gen.cpp.obj",
 			"GrabDropCharacter.gen.cpp.obj",
 			"MyFirstActor.gen.cpp.obj",
+			"MyPawn.gen.cpp.obj",
 			"PlatformActor.gen.cpp.obj",
 			"PlatformActor2.gen.cpp.obj",
 			"SimpleActor.gen.cpp.obj",
@@ -27,6 +29,7 @@
 			"MyFirstActor.cpp.obj",
 			"Car.cpp.obj",
 			"GrabDropCharacter.cpp.obj",
+			"MyPawn.cpp.obj",
 			"PlatformActor.cpp.obj",
 			"PlatformActor2.cpp.obj",
 			"SimpleActor.cpp.obj",
@@ -39,9 +42,12 @@
 			"UnrealEngineCourseCharacter.cpp.obj",
 			"UnrealEngineCourseGameMode.cpp.obj",
 			"Vehicle.cpp.obj",
-			"MyPawn.gen.cpp.obj",
+			"MyFirstNPC.gen.cpp.obj",
+			"NPC_AIController.gen.cpp.obj",
 			"UnrealEngineCourse.init.gen.cpp.obj",
-			"MyPawn.cpp.obj"
+			"BTTask_FindRandomLocation.cpp.obj",
+			"MyFirstNPC.cpp.obj",
+			"NPC_AIController.cpp.obj"
 		]
 	}
 }

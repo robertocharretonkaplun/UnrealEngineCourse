@@ -6,10 +6,12 @@
 /NAME:"UnrealEditor-UnrealEngineCourse-0001.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"C:\Users\rchar\OneDrive\Documentos\GitHub\UnrealEngineCourse\UnrealEngineCourse\Intermediate\Build\Win64\x64\UnrealEngineCourseEditor\Development\Engine\SharedPCH.Engine.Cpp20.h.obj"
+"C:\Users\rchar\OneDrive\Documentos\GitHub\UnrealEngineCourse\UnrealEngineCourse\Intermediate\Build\Win64\x64\UnrealEngineCourseEditor\Development\UnrealEd\SharedPCH.UnrealEd.Cpp20.h.obj"
 "C:\Users\rchar\OneDrive\Documentos\GitHub\UnrealEngineCourse\UnrealEngineCourse\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEngineCourse\Module.UnrealEngineCourse.cpp.obj"
-"C:\Users\rchar\OneDrive\Documentos\GitHub\UnrealEngineCourse\UnrealEngineCourse\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEngineCourse\MyPawn.cpp.obj"
-"C:\Users\rchar\OneDrive\Documentos\GitHub\UnrealEngineCourse\UnrealEngineCourse\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEngineCourse\MyPawn.gen.cpp.obj"
+"C:\Users\rchar\OneDrive\Documentos\GitHub\UnrealEngineCourse\UnrealEngineCourse\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEngineCourse\MyFirstNPC.cpp.obj"
+"C:\Users\rchar\OneDrive\Documentos\GitHub\UnrealEngineCourse\UnrealEngineCourse\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEngineCourse\NPC_AIController.cpp.obj"
+"C:\Users\rchar\OneDrive\Documentos\GitHub\UnrealEngineCourse\UnrealEngineCourse\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEngineCourse\MyFirstNPC.gen.cpp.obj"
+"C:\Users\rchar\OneDrive\Documentos\GitHub\UnrealEngineCourse\UnrealEngineCourse\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEngineCourse\NPC_AIController.gen.cpp.obj"
 "C:\Users\rchar\OneDrive\Documentos\GitHub\UnrealEngineCourse\UnrealEngineCourse\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEngineCourse\UnrealEngineCourse.init.gen.cpp.obj"
 "C:\Users\rchar\OneDrive\Documentos\GitHub\UnrealEngineCourse\UnrealEngineCourse\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEngineCourse\Default.rc2.res"
 /OUT:"C:\Users\rchar\OneDrive\Documentos\GitHub\UnrealEngineCourse\UnrealEngineCourse\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEngineCourse\UnrealEditor-UnrealEngineCourse-0001.lib"
