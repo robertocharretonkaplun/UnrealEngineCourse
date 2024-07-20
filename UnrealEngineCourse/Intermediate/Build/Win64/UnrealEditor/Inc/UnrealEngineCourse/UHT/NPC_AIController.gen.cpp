@@ -39,12 +39,15 @@ void EmptyLinkFunctionForGeneratedCodeNPC_AIController() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANPC_AIController_Statics::Class_MetaDataParams[] = {
 #if !UE_BUILD_SHIPPING
-		{ "Comment", "/**\n * \n */" },
+		{ "Comment", "/**\n * ANPC_AIController\n *\n * Esta clase es un controlador de inteligencia artificial (IA) que se utiliza para controlar a los personajes no jugables (NPC) en el juego.\n * Hereda de AAIController, proporcionando funcionalidad adicional para la posesi\xef\xbf\xbdn y control de peones (pawns).\n */" },
 #endif
 		{ "HideCategories", "Collision Rendering Transformation" },
 		{ "IncludePath", "NPC_AIController.h" },
 		{ "ModuleRelativePath", "Public/NPC_AIController.h" },
 		{ "ObjectInitializerConstructorDeclared", "" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "ANPC_AIController\n\nEsta clase es un controlador de inteligencia artificial (IA) que se utiliza para controlar a los personajes no jugables (NPC) en el juego.\nHereda de AAIController, proporcionando funcionalidad adicional para la posesi\xef\xbf\xbdn y control de peones (pawns)." },
+#endif
 	};
 #endif
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ANPC_AIController_Statics::StaticCppClassTypeInfo = {
@@ -84,9 +87,9 @@ void EmptyLinkFunctionForGeneratedCodeNPC_AIController() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_rchar_OneDrive_Documentos_GitHub_UnrealEngineCourse_UnrealEngineCourse_Source_UnrealEngineCourse_Public_NPC_AIController_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ANPC_AIController, ANPC_AIController::StaticClass, TEXT("ANPC_AIController"), &Z_Registration_Info_UClass_ANPC_AIController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ANPC_AIController), 944458334U) },
+		{ Z_Construct_UClass_ANPC_AIController, ANPC_AIController::StaticClass, TEXT("ANPC_AIController"), &Z_Registration_Info_UClass_ANPC_AIController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ANPC_AIController), 1530913239U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_rchar_OneDrive_Documentos_GitHub_UnrealEngineCourse_UnrealEngineCourse_Source_UnrealEngineCourse_Public_NPC_AIController_h_2345140898(TEXT("/Script/UnrealEngineCourse"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_rchar_OneDrive_Documentos_GitHub_UnrealEngineCourse_UnrealEngineCourse_Source_UnrealEngineCourse_Public_NPC_AIController_h_3055985183(TEXT("/Script/UnrealEngineCourse"),
 		Z_CompiledInDeferFile_FID_Users_rchar_OneDrive_Documentos_GitHub_UnrealEngineCourse_UnrealEngineCourse_Source_UnrealEngineCourse_Public_NPC_AIController_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_rchar_OneDrive_Documentos_GitHub_UnrealEngineCourse_UnrealEngineCourse_Source_UnrealEngineCourse_Public_NPC_AIController_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

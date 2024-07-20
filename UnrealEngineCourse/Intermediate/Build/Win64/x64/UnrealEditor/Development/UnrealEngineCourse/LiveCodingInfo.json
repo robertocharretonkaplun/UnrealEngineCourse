@@ -4,11 +4,13 @@
 		"Module.UnrealEngineCourse.cpp.obj": [
 			"ActorClase1.gen.cpp.obj",
 			"AMyActor.gen.cpp.obj",
+			"BTTask_FindRandomLocation.gen.cpp.obj",
 			"Car.gen.cpp.obj",
 			"CustomEventExample.gen.cpp.obj",
 			"GrabbableActor.gen.cpp.obj",
 			"GrabDropCharacter.gen.cpp.obj",
 			"MyFirstActor.gen.cpp.obj",
+			"MyFirstNPC.gen.cpp.obj",
 			"MyPawn.gen.cpp.obj",
 			"PlatformActor.gen.cpp.obj",
 			"PlatformActor2.gen.cpp.obj",
@@ -26,9 +28,12 @@
 			"CustomEventExample.cpp.obj",
 			"GrabbableActor.cpp.obj",
 			"MyFirstActor.cpp.obj",
+			"BTTask_FindRandomLocation.cpp.obj",
 			"Car.cpp.obj",
 			"GrabDropCharacter.cpp.obj",
+			"MyFirstNPC.cpp.obj",
 			"MyPawn.cpp.obj",
+			"NPC_AIController.cpp.obj",
 			"PlatformActor.cpp.obj",
 			"PlatformActor2.cpp.obj",
 			"SimpleActor.cpp.obj",
@@ -41,13 +46,14 @@
 			"UnrealEngineCourseCharacter.cpp.obj",
 			"UnrealEngineCourseGameMode.cpp.obj",
 			"Vehicle.cpp.obj",
-			"BTTask_FindRandomLocation.gen.cpp.obj",
-			"MyFirstNPC.gen.cpp.obj",
+			"BTTask_FRL.gen.cpp.obj",
+			"NPC.gen.cpp.obj",
+			"NPCAIController.gen.cpp.obj",
 			"NPC_AIController.gen.cpp.obj",
 			"UnrealEngineCourse.init.gen.cpp.obj",
-			"BTTask_FindRandomLocation.cpp.obj",
-			"MyFirstNPC.cpp.obj",
-			"NPC_AIController.cpp.obj"
+			"BTTask_FRL.cpp.obj",
+			"NPC.cpp.obj",
+			"NPCAIController.cpp.obj"
 		]
 	}
 }

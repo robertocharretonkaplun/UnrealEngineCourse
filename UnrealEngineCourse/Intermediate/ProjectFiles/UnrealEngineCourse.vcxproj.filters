@@ -96,6 +96,9 @@
     <ClCompile Include="..\..\Source\UnrealEngineCourse\Private\BTTask_FindRandomLocation.cpp">
       <Filter>Source\UnrealEngineCourse\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealEngineCourse\Private\BTTask_FRL.cpp">
+      <Filter>Source\UnrealEngineCourse\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\UnrealEngineCourse\Private\Car.cpp">
       <Filter>Source\UnrealEngineCourse\Private</Filter>
     </ClCompile>
@@ -106,6 +109,12 @@
       <Filter>Source\UnrealEngineCourse\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\UnrealEngineCourse\Private\MyPawn.cpp">
+      <Filter>Source\UnrealEngineCourse\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealEngineCourse\Private\NPC.cpp">
+      <Filter>Source\UnrealEngineCourse\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealEngineCourse\Private\NPCAIController.cpp">
       <Filter>Source\UnrealEngineCourse\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\UnrealEngineCourse\Private\NPC_AIController.cpp">
@@ -141,6 +150,9 @@
     <ClInclude Include="..\..\Source\UnrealEngineCourse\Public\BTTask_FindRandomLocation.h">
       <Filter>Source\UnrealEngineCourse\Public</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\UnrealEngineCourse\Public\BTTask_FRL.h">
+      <Filter>Source\UnrealEngineCourse\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\UnrealEngineCourse\Public\Car.h">
       <Filter>Source\UnrealEngineCourse\Public</Filter>
     </ClInclude>
@@ -151,6 +163,12 @@
       <Filter>Source\UnrealEngineCourse\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\UnrealEngineCourse\Public\MyPawn.h">
+      <Filter>Source\UnrealEngineCourse\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UnrealEngineCourse\Public\NPC.h">
+      <Filter>Source\UnrealEngineCourse\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UnrealEngineCourse\Public\NPCAIController.h">
       <Filter>Source\UnrealEngineCourse\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\UnrealEngineCourse\Public\NPC_AIController.h">

@@ -175,6 +175,11 @@
       <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>
       <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
     </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealEngineCourse\Private\BTTask_FRL.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>
+      <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
     <ClCompile Include="..\..\Source\UnrealEngineCourse\Private\Car.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>
@@ -191,6 +196,16 @@
       <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <ClCompile Include="..\..\Source\UnrealEngineCourse\Private\MyPawn.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>
+      <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealEngineCourse\Private\NPC.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>
+      <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealEngineCourse\Private\NPCAIController.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>
       <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
@@ -241,10 +256,13 @@
       <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <ClInclude Include="..\..\Source\UnrealEngineCourse\Public\BTTask_FindRandomLocation.h"/>
+    <ClInclude Include="..\..\Source\UnrealEngineCourse\Public\BTTask_FRL.h"/>
     <ClInclude Include="..\..\Source\UnrealEngineCourse\Public\Car.h"/>
     <ClInclude Include="..\..\Source\UnrealEngineCourse\Public\GrabDropCharacter.h"/>
     <ClInclude Include="..\..\Source\UnrealEngineCourse\Public\MyFirstNPC.h"/>
     <ClInclude Include="..\..\Source\UnrealEngineCourse\Public\MyPawn.h"/>
+    <ClInclude Include="..\..\Source\UnrealEngineCourse\Public\NPC.h"/>
+    <ClInclude Include="..\..\Source\UnrealEngineCourse\Public\NPCAIController.h"/>
     <ClInclude Include="..\..\Source\UnrealEngineCourse\Public\NPC_AIController.h"/>
     <ClInclude Include="..\..\Source\UnrealEngineCourse\Public\PlatformActor.h"/>
     <ClInclude Include="..\..\Source\UnrealEngineCourse\Public\PlatformActor2.h"/>
