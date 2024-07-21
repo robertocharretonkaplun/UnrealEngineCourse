@@ -1,0 +1,25 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\rchar\\onedrive\\documentos\\github\\unrealenginecourse\\unrealenginecourse\\intermediate\\build\\win64\\unrealeditor\\inc\\unrealenginecourse\\uht\\structoractor.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\rchar\\onedrive\\documentos\\github\\unrealenginecourse\\unrealenginecourse\\intermediate\\build\\win64\\x64\\unrealenginecourseeditor\\development\\unrealed\\sharedpch.unrealed.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\rchar\\onedrive\\documentos\\github\\unrealenginecourse\\unrealenginecourse\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealenginecourse\\definitions.unrealenginecourse.h",
+            "c:\\users\\rchar\\onedrive\\documentos\\github\\unrealenginecourse\\unrealenginecourse\\source\\unrealenginecourse\\public\\structoractor.h",
+            "c:\\users\\rchar\\onedrive\\documentos\\github\\unrealenginecourse\\unrealenginecourse\\source\\unrealenginecourse\\unrealenginecoursecharacter.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\experimental\\iris\\core\\public\\iris\\serialization\\irisobjectreferencepackagemap.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\iriscore\\uht\\irisobjectreferencepackagemap.generated.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\charactermovementreplication.generated.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\rootmotionsource.generated.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\character.generated.h",
+            "c:\\users\\rchar\\onedrive\\documentos\\github\\unrealenginecourse\\unrealenginecourse\\intermediate\\build\\win64\\unrealeditor\\inc\\unrealenginecourse\\uht\\unrealenginecoursecharacter.generated.h",
+            "c:\\users\\rchar\\onedrive\\documentos\\github\\unrealenginecourse\\unrealenginecourse\\intermediate\\build\\win64\\unrealeditor\\inc\\unrealenginecourse\\uht\\structoractor.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -230,6 +230,11 @@
       <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>
       <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
     </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealEngineCourse\Private\StructorActor.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>
+      <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
     <ClCompile Include="..\..\Source\UnrealEngineCourse\Private\Temperatura.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>
@@ -267,6 +272,7 @@
     <ClInclude Include="..\..\Source\UnrealEngineCourse\Public\PlatformActor.h"/>
     <ClInclude Include="..\..\Source\UnrealEngineCourse\Public\PlatformActor2.h"/>
     <ClInclude Include="..\..\Source\UnrealEngineCourse\Public\SimpleActor.h"/>
+    <ClInclude Include="..\..\Source\UnrealEngineCourse\Public\StructorActor.h"/>
     <ClInclude Include="..\..\Source\UnrealEngineCourse\Public\Temperatura.h"/>
     <ClInclude Include="..\..\Source\UnrealEngineCourse\Public\Temperatura2.h"/>
     <ClInclude Include="..\..\Source\UnrealEngineCourse\Public\TMA.h"/>
