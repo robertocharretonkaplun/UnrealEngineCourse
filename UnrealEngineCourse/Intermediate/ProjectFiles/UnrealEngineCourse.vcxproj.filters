@@ -102,6 +102,9 @@
     <ClCompile Include="..\..\Source\UnrealEngineCourse\Private\Car.cpp">
       <Filter>Source\UnrealEngineCourse\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealEngineCourse\Private\CStructure.cpp">
+      <Filter>Source\UnrealEngineCourse\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\UnrealEngineCourse\Private\GrabDropCharacter.cpp">
       <Filter>Source\UnrealEngineCourse\Private</Filter>
     </ClCompile>
@@ -157,6 +160,9 @@
       <Filter>Source\UnrealEngineCourse\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\UnrealEngineCourse\Public\Car.h">
+      <Filter>Source\UnrealEngineCourse\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UnrealEngineCourse\Public\CStructure.h">
       <Filter>Source\UnrealEngineCourse\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\UnrealEngineCourse\Public\GrabDropCharacter.h">

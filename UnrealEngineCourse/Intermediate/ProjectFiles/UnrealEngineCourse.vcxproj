@@ -185,6 +185,11 @@
       <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>
       <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
     </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealEngineCourse\Private\CStructure.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>
+      <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
     <ClCompile Include="..\..\Source\UnrealEngineCourse\Private\GrabDropCharacter.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>
@@ -263,6 +268,7 @@
     <ClInclude Include="..\..\Source\UnrealEngineCourse\Public\BTTask_FindRandomLocation.h"/>
     <ClInclude Include="..\..\Source\UnrealEngineCourse\Public\BTTask_FRL.h"/>
     <ClInclude Include="..\..\Source\UnrealEngineCourse\Public\Car.h"/>
+    <ClInclude Include="..\..\Source\UnrealEngineCourse\Public\CStructure.h"/>
     <ClInclude Include="..\..\Source\UnrealEngineCourse\Public\GrabDropCharacter.h"/>
     <ClInclude Include="..\..\Source\UnrealEngineCourse\Public\MyFirstNPC.h"/>
     <ClInclude Include="..\..\Source\UnrealEngineCourse\Public\MyPawn.h"/>
