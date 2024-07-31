@@ -34,6 +34,7 @@
 /NODEFAULTLIB:"LIBCD"
 /NODEFAULTLIB:"LIBCPD"
 /FUNCTIONPADMIN:6
+/NATVIS:"..\Plugins\FX\Niagara\Intermediate\Build\Win64\x64\UnrealEditor\Development\Niagara\Niagara.natvis"
 "C:\Users\rchar\OneDrive\Documentos\GitHub\UnrealEngineCourse\UnrealEngineCourse\Intermediate\Build\Win64\x64\UnrealEngineCourseEditor\Development\UnrealEd\SharedPCH.UnrealEd.Cpp20.h.obj"
 "C:\Users\rchar\OneDrive\Documentos\GitHub\UnrealEngineCourse\UnrealEngineCourse\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEngineCourse\Module.UnrealEngineCourse.cpp.obj"
 "C:\Users\rchar\OneDrive\Documentos\GitHub\UnrealEngineCourse\UnrealEngineCourse\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEngineCourse\ParticleActor.cpp.obj"
@@ -48,6 +49,7 @@
 "..\Plugins\EnhancedInput\Intermediate\Build\Win64\x64\UnrealEditor\Development\EnhancedInput\UnrealEditor-EnhancedInput.lib"
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameplayTasks\UnrealEditor-GameplayTasks.lib"
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\NavigationSystem\UnrealEditor-NavigationSystem.lib"
+"..\Plugins\FX\Niagara\Intermediate\Build\Win64\x64\UnrealEditor\Development\Niagara\UnrealEditor-Niagara.lib"
 "delayimp.lib"
 "wininet.lib"
 "rpcrt4.lib"

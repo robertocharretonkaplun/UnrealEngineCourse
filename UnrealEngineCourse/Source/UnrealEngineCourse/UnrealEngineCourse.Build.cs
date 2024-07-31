@@ -17,7 +17,8 @@ public class UnrealEngineCourse : ModuleRules
       "EnhancedInput",
       "AIModule",
       "GameplayTasks",
-      "NavigationSystem"
+      "NavigationSystem",
+      "Niagara"
     });
   }
 }
