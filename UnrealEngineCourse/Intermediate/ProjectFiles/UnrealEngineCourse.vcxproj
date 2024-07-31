@@ -220,6 +220,11 @@
       <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>
       <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
     </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealEngineCourse\Private\ParticleActor.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>
+      <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
     <ClCompile Include="..\..\Source\UnrealEngineCourse\Private\PlatformActor.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>
@@ -275,6 +280,7 @@
     <ClInclude Include="..\..\Source\UnrealEngineCourse\Public\NPC.h"/>
     <ClInclude Include="..\..\Source\UnrealEngineCourse\Public\NPCAIController.h"/>
     <ClInclude Include="..\..\Source\UnrealEngineCourse\Public\NPC_AIController.h"/>
+    <ClInclude Include="..\..\Source\UnrealEngineCourse\Public\ParticleActor.h"/>
     <ClInclude Include="..\..\Source\UnrealEngineCourse\Public\PlatformActor.h"/>
     <ClInclude Include="..\..\Source\UnrealEngineCourse\Public\PlatformActor2.h"/>
     <ClInclude Include="..\..\Source\UnrealEngineCourse\Public\SimpleActor.h"/>
