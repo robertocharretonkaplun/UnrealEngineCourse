@@ -17,6 +17,7 @@
 			"NPC.gen.cpp.obj",
 			"NPCAIController.gen.cpp.obj",
 			"NPC_AIController.gen.cpp.obj",
+			"ParticleActor.gen.cpp.obj",
 			"PlatformActor.gen.cpp.obj",
 			"PlatformActor2.gen.cpp.obj",
 			"SimpleActor.gen.cpp.obj",
@@ -26,6 +27,7 @@
 			"TMA.gen.cpp.obj",
 			"TransformModifierActor.gen.cpp.obj",
 			"UCQClase.gen.cpp.obj",
+			"UnrealEngineCourse.init.gen.cpp.obj",
 			"UnrealEngineCourseCharacter.gen.cpp.obj",
 			"UnrealEngineCourseGameMode.gen.cpp.obj",
 			"Vehicle.gen.cpp.obj",
@@ -57,8 +59,6 @@
 			"UnrealEngineCourseCharacter.cpp.obj",
 			"UnrealEngineCourseGameMode.cpp.obj",
 			"Vehicle.cpp.obj",
-			"ParticleActor.gen.cpp.obj",
-			"UnrealEngineCourse.init.gen.cpp.obj",
 			"ParticleActor.cpp.obj"
 		]
 	}
