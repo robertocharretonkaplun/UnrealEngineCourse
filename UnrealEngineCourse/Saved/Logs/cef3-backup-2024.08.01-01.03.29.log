@@ -1,0 +1,8 @@
+[0731/133758.667:ERROR:gpu_init.cc(426)] Passthrough is not supported, GL is disabled
+[0731/174029.360:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[0731/174029.375:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[0731/174029.395:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[0731/174029.405:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[0731/174031.152:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[0731/174031.156:WARNING:dns_config_service_win.cc(712)] Failed to read DnsConfig.
+[0731/190329.571:ERROR:command_buffer_proxy_impl.cc(121)] ContextResult::kTransientFailure: Failed to send GpuChannelMsg_CreateCommandBuffer.
